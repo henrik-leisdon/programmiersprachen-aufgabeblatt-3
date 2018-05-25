@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabenblatt-2
+CMAKE_SOURCE_DIR = /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabenblatt-2/build
+CMAKE_BINARY_DIR = /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/nanovg.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/nanovg.dir/flags.make
 
 CMakeFiles/nanovg.dir/external/nanovg/src/nanovg.c.o: CMakeFiles/nanovg.dir/flags.make
 CMakeFiles/nanovg.dir/external/nanovg/src/nanovg.c.o: ../external/nanovg/src/nanovg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabenblatt-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/nanovg.dir/external/nanovg/src/nanovg.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wno-unused-result -o CMakeFiles/nanovg.dir/external/nanovg/src/nanovg.c.o   -c /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabenblatt-2/external/nanovg/src/nanovg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/nanovg.dir/external/nanovg/src/nanovg.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wno-unused-result -o CMakeFiles/nanovg.dir/external/nanovg/src/nanovg.c.o   -c /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/external/nanovg/src/nanovg.c
 
 CMakeFiles/nanovg.dir/external/nanovg/src/nanovg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nanovg.dir/external/nanovg/src/nanovg.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wno-unused-result -E /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabenblatt-2/external/nanovg/src/nanovg.c > CMakeFiles/nanovg.dir/external/nanovg/src/nanovg.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wno-unused-result -E /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/external/nanovg/src/nanovg.c > CMakeFiles/nanovg.dir/external/nanovg/src/nanovg.c.i
 
 CMakeFiles/nanovg.dir/external/nanovg/src/nanovg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nanovg.dir/external/nanovg/src/nanovg.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wno-unused-result -S /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabenblatt-2/external/nanovg/src/nanovg.c -o CMakeFiles/nanovg.dir/external/nanovg/src/nanovg.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wno-unused-result -S /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/external/nanovg/src/nanovg.c -o CMakeFiles/nanovg.dir/external/nanovg/src/nanovg.c.s
 
 CMakeFiles/nanovg.dir/external/nanovg/src/nanovg.c.o.requires:
 
@@ -91,7 +91,7 @@ nanovg_EXTERNAL_OBJECTS =
 libnanovg.a: CMakeFiles/nanovg.dir/external/nanovg/src/nanovg.c.o
 libnanovg.a: CMakeFiles/nanovg.dir/build.make
 libnanovg.a: CMakeFiles/nanovg.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabenblatt-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libnanovg.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libnanovg.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/nanovg.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nanovg.dir/link.txt --verbose=$(VERBOSE)
 
@@ -109,6 +109,6 @@ CMakeFiles/nanovg.dir/clean:
 .PHONY : CMakeFiles/nanovg.dir/clean
 
 CMakeFiles/nanovg.dir/depend:
-	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabenblatt-2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabenblatt-2 /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabenblatt-2 /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabenblatt-2/build /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabenblatt-2/build /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabenblatt-2/build/CMakeFiles/nanovg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3 /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3 /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build/CMakeFiles/nanovg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/nanovg.dir/depend
 

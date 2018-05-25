@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++14 -Wall   CMakeFiles/tests.dir/glew.c.o CMakeFiles/tests.dir/aufgabe_2_und_3.cpp.o  -o tests -rdynamic ../external/glfw-3.2.1/src/libglfw3.a ../libnanovg.a -lGLU -lGL -lrt -lm -ldl -lX11 -lpthread -lXrandr -lXinerama -lXxf86vm -lXcursor 

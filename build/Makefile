@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabenblatt-2
+CMAKE_SOURCE_DIR = /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabenblatt-2/build
+CMAKE_BINARY_DIR = /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabenblatt-2/build/CMakeFiles /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabenblatt-2/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build/CMakeFiles /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabenblatt-2/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,45 +111,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named nanovg
-
-# Build rule for target.
-nanovg: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 nanovg
-.PHONY : nanovg
-
-# fast build rule for target.
-nanovg/fast:
-	$(MAKE) -f CMakeFiles/nanovg.dir/build.make CMakeFiles/nanovg.dir/build
-.PHONY : nanovg/fast
-
-#=============================================================================
-# Target rules for targets named glfw
-
-# Build rule for target.
-glfw: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 glfw
-.PHONY : glfw
-
-# fast build rule for target.
-glfw/fast:
-	$(MAKE) -f external/glfw-3.2.1/src/CMakeFiles/glfw.dir/build.make external/glfw-3.2.1/src/CMakeFiles/glfw.dir/build
-.PHONY : glfw/fast
-
-#=============================================================================
-# Target rules for targets named tests
-
-# Build rule for target.
-tests: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tests
-.PHONY : tests
-
-# fast build rule for target.
-tests/fast:
-	$(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/build
-.PHONY : tests/fast
-
-#=============================================================================
 # Target rules for targets named example
 
 # Build rule for target.
@@ -162,33 +123,6 @@ example/fast:
 	$(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/build
 .PHONY : example/fast
 
-external/nanovg/src/nanovg.o: external/nanovg/src/nanovg.c.o
-
-.PHONY : external/nanovg/src/nanovg.o
-
-# target to build an object file
-external/nanovg/src/nanovg.c.o:
-	$(MAKE) -f CMakeFiles/nanovg.dir/build.make CMakeFiles/nanovg.dir/external/nanovg/src/nanovg.c.o
-.PHONY : external/nanovg/src/nanovg.c.o
-
-external/nanovg/src/nanovg.i: external/nanovg/src/nanovg.c.i
-
-.PHONY : external/nanovg/src/nanovg.i
-
-# target to preprocess a source file
-external/nanovg/src/nanovg.c.i:
-	$(MAKE) -f CMakeFiles/nanovg.dir/build.make CMakeFiles/nanovg.dir/external/nanovg/src/nanovg.c.i
-.PHONY : external/nanovg/src/nanovg.c.i
-
-external/nanovg/src/nanovg.s: external/nanovg/src/nanovg.c.s
-
-.PHONY : external/nanovg/src/nanovg.s
-
-# target to generate assembly for a file
-external/nanovg/src/nanovg.c.s:
-	$(MAKE) -f CMakeFiles/nanovg.dir/build.make CMakeFiles/nanovg.dir/external/nanovg/src/nanovg.c.s
-.PHONY : external/nanovg/src/nanovg.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -197,13 +131,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... nanovg"
-	@echo "... glfw"
-	@echo "... tests"
 	@echo "... example"
-	@echo "... external/nanovg/src/nanovg.o"
-	@echo "... external/nanovg/src/nanovg.i"
-	@echo "... external/nanovg/src/nanovg.s"
 .PHONY : help
 
 

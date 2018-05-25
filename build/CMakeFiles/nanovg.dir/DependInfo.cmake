@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabenblatt-2/external/nanovg/src/nanovg.c" "/home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabenblatt-2/build/CMakeFiles/nanovg.dir/external/nanovg/src/nanovg.c.o"
+  "/home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/external/nanovg/src/nanovg.c" "/home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build/CMakeFiles/nanovg.dir/external/nanovg/src/nanovg.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
