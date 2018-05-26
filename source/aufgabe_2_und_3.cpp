@@ -3,6 +3,7 @@
 #include <algorithm>
 #include <vector>
 #include <set>
+#include <map>
 
 
 int main()
@@ -56,7 +57,22 @@ int main()
         }
     }
     
-    
-    
+    std::map<unsigned int,unsigned int> anzahl;
+
+    for(std::list<unsigned int>::iterator it = liste.begin(); it!=liste.end();it++){
+      auto cCount = notIncluded.insert(*it);
+      if(cCount.second){
+          anzahl[*it] = 1;
+      }else{
+          anzahl[*it]+=1;
+      }
+     }
+     std::cout << "\n";
+     
+    for(std::set<unsigned int>::iterator it = notIncluded.begin(); it!=notIncluded.end();it++){
+        std::cout << *it << "-->" << anzahl[*it] << "\n";
+
+    }
+
 } 
     
