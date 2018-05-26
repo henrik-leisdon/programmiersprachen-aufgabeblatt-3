@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmierspra
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,19 +111,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-source/CMakeFiles/example.dir/rule:
-	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/example.dir/rule
-.PHONY : source/CMakeFiles/example.dir/rule
+source/CMakeFiles/aufgabe_2_und_3.dir/rule:
+	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe_2_und_3.dir/rule
+.PHONY : source/CMakeFiles/aufgabe_2_und_3.dir/rule
 
 # Convenience name for target.
-example: source/CMakeFiles/example.dir/rule
+aufgabe_2_und_3: source/CMakeFiles/aufgabe_2_und_3.dir/rule
 
-.PHONY : example
+.PHONY : aufgabe_2_und_3
 
 # fast build rule for target.
-example/fast:
-	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/build
-.PHONY : example/fast
+aufgabe_2_und_3/fast:
+	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe_2_und_3.dir/build.make source/CMakeFiles/aufgabe_2_und_3.dir/build
+.PHONY : aufgabe_2_und_3/fast
 
 aufgabe_2_und_3.o: aufgabe_2_und_3.cpp.o
 
@@ -131,7 +131,7 @@ aufgabe_2_und_3.o: aufgabe_2_und_3.cpp.o
 
 # target to build an object file
 aufgabe_2_und_3.cpp.o:
-	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/aufgabe_2_und_3.cpp.o
+	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe_2_und_3.dir/build.make source/CMakeFiles/aufgabe_2_und_3.dir/aufgabe_2_und_3.cpp.o
 .PHONY : aufgabe_2_und_3.cpp.o
 
 aufgabe_2_und_3.i: aufgabe_2_und_3.cpp.i
@@ -140,7 +140,7 @@ aufgabe_2_und_3.i: aufgabe_2_und_3.cpp.i
 
 # target to preprocess a source file
 aufgabe_2_und_3.cpp.i:
-	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/aufgabe_2_und_3.cpp.i
+	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe_2_und_3.dir/build.make source/CMakeFiles/aufgabe_2_und_3.dir/aufgabe_2_und_3.cpp.i
 .PHONY : aufgabe_2_und_3.cpp.i
 
 aufgabe_2_und_3.s: aufgabe_2_und_3.cpp.s
@@ -149,7 +149,7 @@ aufgabe_2_und_3.s: aufgabe_2_und_3.cpp.s
 
 # target to generate assembly for a file
 aufgabe_2_und_3.cpp.s:
-	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/aufgabe_2_und_3.cpp.s
+	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe_2_und_3.dir/build.make source/CMakeFiles/aufgabe_2_und_3.dir/aufgabe_2_und_3.cpp.s
 .PHONY : aufgabe_2_und_3.cpp.s
 
 # Help Target
@@ -158,9 +158,9 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... example"
+	@echo "... rebuild_cache"
+	@echo "... aufgabe_2_und_3"
 	@echo "... aufgabe_2_und_3.o"
 	@echo "... aufgabe_2_und_3.i"
 	@echo "... aufgabe_2_und_3.s"
