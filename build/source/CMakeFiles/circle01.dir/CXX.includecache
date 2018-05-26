@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/source/circle.cpp
+math.h
+-
+vec2.hpp
+/home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/source/vec2.hpp
+circle.hpp
+/home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/source/circle.hpp
+color.hpp
+/home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/source/color.hpp
+string
+-
+
+/home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/source/circle.hpp
+string
+-
+iostream
+-
+vec2.hpp
+/home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/source/vec2.hpp
+color.hpp
+/home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/source/color.hpp
+
+/home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/source/color.hpp
+iostream
+-
+
+/home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/source/vec2.hpp
+

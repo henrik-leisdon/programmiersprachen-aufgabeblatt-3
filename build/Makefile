@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named circle01
+
+# Build rule for target.
+circle01: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 circle01
+.PHONY : circle01
+
+# fast build rule for target.
+circle01/fast:
+	$(MAKE) -f source/CMakeFiles/circle01.dir/build.make source/CMakeFiles/circle01.dir/build
+.PHONY : circle01/fast
+
+#=============================================================================
 # Target rules for targets named aufgabe_2_und_3
 
 # Build rule for target.
@@ -131,6 +144,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... circle01"
 	@echo "... aufgabe_2_und_3"
 .PHONY : help
 
