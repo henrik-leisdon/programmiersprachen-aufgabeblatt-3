@@ -3,6 +3,8 @@
 
 #include"vec2.hpp"
 #include<iostream>
+#include <math.h>
+#include <string>
 
 Vec2::Vec2():
     x{0.0f},

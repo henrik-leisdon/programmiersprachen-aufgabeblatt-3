@@ -6,3 +6,6 @@ source/CMakeFiles/circle01.dir/circle.cpp.o: ../source/circle.hpp
 source/CMakeFiles/circle01.dir/circle.cpp.o: ../source/color.hpp
 source/CMakeFiles/circle01.dir/circle.cpp.o: ../source/vec2.hpp
 
+source/CMakeFiles/circle01.dir/vec2.cpp.o: ../source/vec2.cpp
+source/CMakeFiles/circle01.dir/vec2.cpp.o: ../source/vec2.hpp
+

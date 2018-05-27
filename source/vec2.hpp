@@ -1,6 +1,9 @@
 #ifndef VEC2_HPP
 #define VEC2_HPP
 
+#include <math.h>
+#include <string>
+
 struct Vec2{
 
     public:

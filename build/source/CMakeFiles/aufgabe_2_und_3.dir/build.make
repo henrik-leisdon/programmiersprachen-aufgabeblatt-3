@@ -81,17 +81,69 @@ source/CMakeFiles/aufgabe_2_und_3.dir/aufgabe_2_und_3.cpp.o.provides: source/CMa
 source/CMakeFiles/aufgabe_2_und_3.dir/aufgabe_2_und_3.cpp.o.provides.build: source/CMakeFiles/aufgabe_2_und_3.dir/aufgabe_2_und_3.cpp.o
 
 
+source/CMakeFiles/aufgabe_2_und_3.dir/circle.cpp.o: source/CMakeFiles/aufgabe_2_und_3.dir/flags.make
+source/CMakeFiles/aufgabe_2_und_3.dir/circle.cpp.o: ../source/circle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object source/CMakeFiles/aufgabe_2_und_3.dir/circle.cpp.o"
+	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build/source && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aufgabe_2_und_3.dir/circle.cpp.o -c /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/source/circle.cpp
+
+source/CMakeFiles/aufgabe_2_und_3.dir/circle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aufgabe_2_und_3.dir/circle.cpp.i"
+	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build/source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/source/circle.cpp > CMakeFiles/aufgabe_2_und_3.dir/circle.cpp.i
+
+source/CMakeFiles/aufgabe_2_und_3.dir/circle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aufgabe_2_und_3.dir/circle.cpp.s"
+	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build/source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/source/circle.cpp -o CMakeFiles/aufgabe_2_und_3.dir/circle.cpp.s
+
+source/CMakeFiles/aufgabe_2_und_3.dir/circle.cpp.o.requires:
+
+.PHONY : source/CMakeFiles/aufgabe_2_und_3.dir/circle.cpp.o.requires
+
+source/CMakeFiles/aufgabe_2_und_3.dir/circle.cpp.o.provides: source/CMakeFiles/aufgabe_2_und_3.dir/circle.cpp.o.requires
+	$(MAKE) -f source/CMakeFiles/aufgabe_2_und_3.dir/build.make source/CMakeFiles/aufgabe_2_und_3.dir/circle.cpp.o.provides.build
+.PHONY : source/CMakeFiles/aufgabe_2_und_3.dir/circle.cpp.o.provides
+
+source/CMakeFiles/aufgabe_2_und_3.dir/circle.cpp.o.provides.build: source/CMakeFiles/aufgabe_2_und_3.dir/circle.cpp.o
+
+
+source/CMakeFiles/aufgabe_2_und_3.dir/vec2.cpp.o: source/CMakeFiles/aufgabe_2_und_3.dir/flags.make
+source/CMakeFiles/aufgabe_2_und_3.dir/vec2.cpp.o: ../source/vec2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object source/CMakeFiles/aufgabe_2_und_3.dir/vec2.cpp.o"
+	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build/source && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aufgabe_2_und_3.dir/vec2.cpp.o -c /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/source/vec2.cpp
+
+source/CMakeFiles/aufgabe_2_und_3.dir/vec2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aufgabe_2_und_3.dir/vec2.cpp.i"
+	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build/source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/source/vec2.cpp > CMakeFiles/aufgabe_2_und_3.dir/vec2.cpp.i
+
+source/CMakeFiles/aufgabe_2_und_3.dir/vec2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aufgabe_2_und_3.dir/vec2.cpp.s"
+	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build/source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/source/vec2.cpp -o CMakeFiles/aufgabe_2_und_3.dir/vec2.cpp.s
+
+source/CMakeFiles/aufgabe_2_und_3.dir/vec2.cpp.o.requires:
+
+.PHONY : source/CMakeFiles/aufgabe_2_und_3.dir/vec2.cpp.o.requires
+
+source/CMakeFiles/aufgabe_2_und_3.dir/vec2.cpp.o.provides: source/CMakeFiles/aufgabe_2_und_3.dir/vec2.cpp.o.requires
+	$(MAKE) -f source/CMakeFiles/aufgabe_2_und_3.dir/build.make source/CMakeFiles/aufgabe_2_und_3.dir/vec2.cpp.o.provides.build
+.PHONY : source/CMakeFiles/aufgabe_2_und_3.dir/vec2.cpp.o.provides
+
+source/CMakeFiles/aufgabe_2_und_3.dir/vec2.cpp.o.provides.build: source/CMakeFiles/aufgabe_2_und_3.dir/vec2.cpp.o
+
+
 # Object files for target aufgabe_2_und_3
 aufgabe_2_und_3_OBJECTS = \
-"CMakeFiles/aufgabe_2_und_3.dir/aufgabe_2_und_3.cpp.o"
+"CMakeFiles/aufgabe_2_und_3.dir/aufgabe_2_und_3.cpp.o" \
+"CMakeFiles/aufgabe_2_und_3.dir/circle.cpp.o" \
+"CMakeFiles/aufgabe_2_und_3.dir/vec2.cpp.o"
 
 # External object files for target aufgabe_2_und_3
 aufgabe_2_und_3_EXTERNAL_OBJECTS =
 
 source/aufgabe_2_und_3: source/CMakeFiles/aufgabe_2_und_3.dir/aufgabe_2_und_3.cpp.o
+source/aufgabe_2_und_3: source/CMakeFiles/aufgabe_2_und_3.dir/circle.cpp.o
+source/aufgabe_2_und_3: source/CMakeFiles/aufgabe_2_und_3.dir/vec2.cpp.o
 source/aufgabe_2_und_3: source/CMakeFiles/aufgabe_2_und_3.dir/build.make
 source/aufgabe_2_und_3: source/CMakeFiles/aufgabe_2_und_3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable aufgabe_2_und_3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable aufgabe_2_und_3"
 	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build/source && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aufgabe_2_und_3.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -100,6 +152,8 @@ source/CMakeFiles/aufgabe_2_und_3.dir/build: source/aufgabe_2_und_3
 .PHONY : source/CMakeFiles/aufgabe_2_und_3.dir/build
 
 source/CMakeFiles/aufgabe_2_und_3.dir/requires: source/CMakeFiles/aufgabe_2_und_3.dir/aufgabe_2_und_3.cpp.o.requires
+source/CMakeFiles/aufgabe_2_und_3.dir/requires: source/CMakeFiles/aufgabe_2_und_3.dir/circle.cpp.o.requires
+source/CMakeFiles/aufgabe_2_und_3.dir/requires: source/CMakeFiles/aufgabe_2_und_3.dir/vec2.cpp.o.requires
 
 .PHONY : source/CMakeFiles/aufgabe_2_und_3.dir/requires
 

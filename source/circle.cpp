@@ -3,7 +3,7 @@
 #define _USE_MATH_DEFINES
 
 #include <math.h>
-#include"vec2.hpp"
+#include "vec2.hpp"
 #include "circle.hpp"
 #include "color.hpp"
 #include <string>
@@ -53,13 +53,28 @@ bool Circle::is_inside(Vec2 const& v){
     else{
         return false;
     }
-    
+}    
+
+//std::string print(Circle const& c1){
+// c1.get_radius() + c1.get_mp().x + c1.get_mp().y  + c1.get_color().r_ +c1.get_color().g_+";" +c1.get_color().b_ +" " + c1.get_name();
+//}
+
+//std::ostream operator<<(std::ostream& os, const Circle& print()){
+//return os;
+//}
+
+bool operator <(Circle const& c1, Circle const& c2){
+    return(c1.get_radius() < c2.get_radius());
+    }
+
+
+bool operator >(Circle const& c1, Circle const& c2){
+    return(c1.get_radius() > c2.get_radius());
 }
 
-std::ostream operator<<(std::ostream& os, const Circle& c1){
-    os << c1.get_radius() << c1.get_mp().x << "," <<c1.get_mp().y << " " << c1.get_color().r_<<";" <<c1.get_color().g_<<";" <<c1.get_color().b_ << " " << c1.get_name();
-    //return os;
-};
+bool operator == (Circle const& c1, Circle const& c2){
+    return(c1.get_radius() == c2.get_radius());
+}
 
 #endif
 

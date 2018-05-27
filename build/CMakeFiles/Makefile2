@@ -63,13 +63,11 @@ CMAKE_BINARY_DIR = /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmierspra
 # Directory level rules for directory source
 
 # Convenience name for "all" pass in the directory.
-source/all: source/CMakeFiles/circle01.dir/all
 source/all: source/CMakeFiles/aufgabe_2_und_3.dir/all
 
 .PHONY : source/all
 
 # Convenience name for "clean" pass in the directory.
-source/clean: source/CMakeFiles/circle01.dir/clean
 source/clean: source/CMakeFiles/aufgabe_2_und_3.dir/clean
 
 .PHONY : source/clean
@@ -80,50 +78,13 @@ source/preinstall:
 .PHONY : source/preinstall
 
 #=============================================================================
-# Target rules for target source/CMakeFiles/circle01.dir
-
-# All Build rule for target.
-source/CMakeFiles/circle01.dir/all:
-	$(MAKE) -f source/CMakeFiles/circle01.dir/build.make source/CMakeFiles/circle01.dir/depend
-	$(MAKE) -f source/CMakeFiles/circle01.dir/build.make source/CMakeFiles/circle01.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build/CMakeFiles --progress-num=3,4 "Built target circle01"
-.PHONY : source/CMakeFiles/circle01.dir/all
-
-# Include target in all.
-all: source/CMakeFiles/circle01.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-source/CMakeFiles/circle01.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/circle01.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build/CMakeFiles 0
-.PHONY : source/CMakeFiles/circle01.dir/rule
-
-# Convenience name for target.
-circle01: source/CMakeFiles/circle01.dir/rule
-
-.PHONY : circle01
-
-# clean rule for target.
-source/CMakeFiles/circle01.dir/clean:
-	$(MAKE) -f source/CMakeFiles/circle01.dir/build.make source/CMakeFiles/circle01.dir/clean
-.PHONY : source/CMakeFiles/circle01.dir/clean
-
-# clean rule for target.
-clean: source/CMakeFiles/circle01.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target source/CMakeFiles/aufgabe_2_und_3.dir
 
 # All Build rule for target.
 source/CMakeFiles/aufgabe_2_und_3.dir/all:
 	$(MAKE) -f source/CMakeFiles/aufgabe_2_und_3.dir/build.make source/CMakeFiles/aufgabe_2_und_3.dir/depend
 	$(MAKE) -f source/CMakeFiles/aufgabe_2_und_3.dir/build.make source/CMakeFiles/aufgabe_2_und_3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build/CMakeFiles --progress-num=1,2 "Built target aufgabe_2_und_3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build/CMakeFiles --progress-num=1,2,3,4 "Built target aufgabe_2_und_3"
 .PHONY : source/CMakeFiles/aufgabe_2_und_3.dir/all
 
 # Include target in all.
@@ -133,7 +94,7 @@ all: source/CMakeFiles/aufgabe_2_und_3.dir/all
 
 # Build rule for subdir invocation for target.
 source/CMakeFiles/aufgabe_2_und_3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe_2_und_3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build/CMakeFiles 0
 .PHONY : source/CMakeFiles/aufgabe_2_und_3.dir/rule

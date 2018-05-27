@@ -6,7 +6,7 @@
 #include <map>
 
 
-int main()
+int main(int argc, char * argv[])
 {
     std::list<unsigned int> liste;
     for(int i=0;i<=100;i++){
