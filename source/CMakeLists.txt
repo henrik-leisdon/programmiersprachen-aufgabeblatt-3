@@ -10,5 +10,20 @@ add_executable(aufgabe_2_und_3
 # Build example
 add_executable(aufgabe_6
 
+circle.cpp
+vec2.cpp
 aufgabe_6.cpp
+)
+
+add_executable(aufgabe_7
+
+circle.cpp
+vec2.cpp
+aufgabe_7.cpp
+)
+
+add_executable(aufgabe_9
+
+aufgabe_9.cpp
+
 )

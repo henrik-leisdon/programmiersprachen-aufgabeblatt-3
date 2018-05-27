@@ -123,6 +123,45 @@ aufgabe_2_und_3/fast:
 	$(MAKE) -f source/CMakeFiles/aufgabe_2_und_3.dir/build.make source/CMakeFiles/aufgabe_2_und_3.dir/build
 .PHONY : aufgabe_2_und_3/fast
 
+#=============================================================================
+# Target rules for targets named aufgabe_6
+
+# Build rule for target.
+aufgabe_6: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 aufgabe_6
+.PHONY : aufgabe_6
+
+# fast build rule for target.
+aufgabe_6/fast:
+	$(MAKE) -f source/CMakeFiles/aufgabe_6.dir/build.make source/CMakeFiles/aufgabe_6.dir/build
+.PHONY : aufgabe_6/fast
+
+#=============================================================================
+# Target rules for targets named aufgabe_9
+
+# Build rule for target.
+aufgabe_9: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 aufgabe_9
+.PHONY : aufgabe_9
+
+# fast build rule for target.
+aufgabe_9/fast:
+	$(MAKE) -f source/CMakeFiles/aufgabe_9.dir/build.make source/CMakeFiles/aufgabe_9.dir/build
+.PHONY : aufgabe_9/fast
+
+#=============================================================================
+# Target rules for targets named aufgabe_7
+
+# Build rule for target.
+aufgabe_7: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 aufgabe_7
+.PHONY : aufgabe_7
+
+# fast build rule for target.
+aufgabe_7/fast:
+	$(MAKE) -f source/CMakeFiles/aufgabe_7.dir/build.make source/CMakeFiles/aufgabe_7.dir/build
+.PHONY : aufgabe_7/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -132,6 +171,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... aufgabe_2_und_3"
+	@echo "... aufgabe_6"
+	@echo "... aufgabe_9"
+	@echo "... aufgabe_7"
 .PHONY : help
 
 

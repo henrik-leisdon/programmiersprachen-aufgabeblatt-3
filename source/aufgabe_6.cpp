@@ -2,8 +2,8 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#include "catch.hpp"
 
-#include <catch.hpp>
 #include "circle.hpp"
 
 
@@ -18,6 +18,7 @@ TEST_CASE("Circle_sort")
     sorted_circles.push_back(c1);
     sorted_circles.push_back(c2);
     sorted_circles.push_back(c3);
+  
 
     std::sort(sorted_circles.begin(), sorted_circles.end());
 

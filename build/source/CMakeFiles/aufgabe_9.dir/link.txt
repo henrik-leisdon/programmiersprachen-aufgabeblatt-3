@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11   CMakeFiles/aufgabe_9.dir/aufgabe_9.cpp.o  -o aufgabe_9 -rdynamic 
