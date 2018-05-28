@@ -31,6 +31,10 @@ color.hpp
 /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/source/color.hpp
 string
 -
+ostream
+-
+sstream
+-
 
 /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/source/circle.hpp
 math.h

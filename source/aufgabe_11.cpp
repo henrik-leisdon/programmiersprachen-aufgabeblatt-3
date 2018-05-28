@@ -24,18 +24,10 @@ TEST_CASE("filter alle Vielfache von 3", "[erase]"){
             ++it;
         }
       }  
-        //vec.erase(std::remove_if(vec.begin(),vec.end(),[](int const&t){return(t%3)!=0;}));
-    
-    REQUIRE(std::all_of(vec.begin(),vec.end(),is_multiple_of_3);
+        
+    REQUIRE(std::all_of(vec.begin(),vec.end(),is_multiple_of_3));
 }
 
-int main(int argc, char* argv[]){
-    
- 
-    
+int main(int argc, char* argv[]){ 
     return Catch::Session().run(argc,argv);
-
-    
-
-    
-}
+   };

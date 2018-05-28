@@ -63,6 +63,7 @@ CMAKE_BINARY_DIR = /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmierspra
 # Directory level rules for directory source
 
 # Convenience name for "all" pass in the directory.
+source/all: source/CMakeFiles/aufgabe_12.dir/all
 source/all: source/CMakeFiles/aufgabe_2_und_3.dir/all
 source/all: source/CMakeFiles/aufgabe_6.dir/all
 source/all: source/CMakeFiles/aufgabe_7.dir/all
@@ -71,6 +72,7 @@ source/all: source/CMakeFiles/aufgabe_11.dir/all
 .PHONY : source/all
 
 # Convenience name for "clean" pass in the directory.
+source/clean: source/CMakeFiles/aufgabe_12.dir/clean
 source/clean: source/CMakeFiles/aufgabe_2_und_3.dir/clean
 source/clean: source/CMakeFiles/aufgabe_6.dir/clean
 source/clean: source/CMakeFiles/aufgabe_7.dir/clean
@@ -84,13 +86,50 @@ source/preinstall:
 .PHONY : source/preinstall
 
 #=============================================================================
+# Target rules for target source/CMakeFiles/aufgabe_12.dir
+
+# All Build rule for target.
+source/CMakeFiles/aufgabe_12.dir/all:
+	$(MAKE) -f source/CMakeFiles/aufgabe_12.dir/build.make source/CMakeFiles/aufgabe_12.dir/depend
+	$(MAKE) -f source/CMakeFiles/aufgabe_12.dir/build.make source/CMakeFiles/aufgabe_12.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build/CMakeFiles --progress-num=5,6,7 "Built target aufgabe_12"
+.PHONY : source/CMakeFiles/aufgabe_12.dir/all
+
+# Include target in all.
+all: source/CMakeFiles/aufgabe_12.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+source/CMakeFiles/aufgabe_12.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe_12.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build/CMakeFiles 0
+.PHONY : source/CMakeFiles/aufgabe_12.dir/rule
+
+# Convenience name for target.
+aufgabe_12: source/CMakeFiles/aufgabe_12.dir/rule
+
+.PHONY : aufgabe_12
+
+# clean rule for target.
+source/CMakeFiles/aufgabe_12.dir/clean:
+	$(MAKE) -f source/CMakeFiles/aufgabe_12.dir/build.make source/CMakeFiles/aufgabe_12.dir/clean
+.PHONY : source/CMakeFiles/aufgabe_12.dir/clean
+
+# clean rule for target.
+clean: source/CMakeFiles/aufgabe_12.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target source/CMakeFiles/aufgabe_2_und_3.dir
 
 # All Build rule for target.
 source/CMakeFiles/aufgabe_2_und_3.dir/all:
 	$(MAKE) -f source/CMakeFiles/aufgabe_2_und_3.dir/build.make source/CMakeFiles/aufgabe_2_und_3.dir/depend
 	$(MAKE) -f source/CMakeFiles/aufgabe_2_und_3.dir/build.make source/CMakeFiles/aufgabe_2_und_3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build/CMakeFiles --progress-num=5,6,7,8 "Built target aufgabe_2_und_3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build/CMakeFiles --progress-num=8,9,10,11 "Built target aufgabe_2_und_3"
 .PHONY : source/CMakeFiles/aufgabe_2_und_3.dir/all
 
 # Include target in all.
@@ -127,7 +166,7 @@ clean: source/CMakeFiles/aufgabe_2_und_3.dir/clean
 source/CMakeFiles/aufgabe_6.dir/all:
 	$(MAKE) -f source/CMakeFiles/aufgabe_6.dir/build.make source/CMakeFiles/aufgabe_6.dir/depend
 	$(MAKE) -f source/CMakeFiles/aufgabe_6.dir/build.make source/CMakeFiles/aufgabe_6.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build/CMakeFiles --progress-num=9,10,11,12 "Built target aufgabe_6"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build/CMakeFiles --progress-num=12,13,14,15 "Built target aufgabe_6"
 .PHONY : source/CMakeFiles/aufgabe_6.dir/all
 
 # Include target in all.
@@ -164,7 +203,7 @@ clean: source/CMakeFiles/aufgabe_6.dir/clean
 source/CMakeFiles/aufgabe_7.dir/all:
 	$(MAKE) -f source/CMakeFiles/aufgabe_7.dir/build.make source/CMakeFiles/aufgabe_7.dir/depend
 	$(MAKE) -f source/CMakeFiles/aufgabe_7.dir/build.make source/CMakeFiles/aufgabe_7.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build/CMakeFiles --progress-num=13,14,15,16 "Built target aufgabe_7"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build/CMakeFiles --progress-num=16,17,18,19 "Built target aufgabe_7"
 .PHONY : source/CMakeFiles/aufgabe_7.dir/all
 
 # Include target in all.

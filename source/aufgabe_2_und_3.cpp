@@ -9,6 +9,7 @@
 int main(int argc, char * argv[])
 {
     std::list<unsigned int> liste;
+    std::vector<unsigned int> rdm_vec(100);
     for(int i=0;i<=100;i++){
         liste.push_back(rand()%101); 
     }
@@ -73,6 +74,10 @@ int main(int argc, char * argv[])
         std::cout << *it << "-->" << anzahl[*it] << "\n";
 
     }
+
+    //aufgabe 10
+
+    std::copy(liste.begin(),liste.end(),rdm_vec.begin());
 
 } 
     

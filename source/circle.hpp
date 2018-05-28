@@ -20,7 +20,8 @@ class Circle{
 
         
         bool is_inside(Vec2 const& v);
-//        std::string print(float radius, Vec2 const& mp, Color const& color, std::string name) const;
+
+        std::ostream& print(std::ostream& outstream) const;
 
     private:
 
@@ -30,11 +31,21 @@ class Circle{
         std::string name_;
 };
 
-//std::ostream& operator<<(std::ostream& os, const Circle& c1);
+
+//std::ostream operator<<(std::ostream& os, Circle const& c);
 
 bool operator <(Circle const& c1, Circle const& c2);
 bool operator >(Circle const& c1, Circle const& c2);
 bool operator == (Circle const& c1, Circle const& c2);
 
-
+/*
+template<typename T>
+class less
+{
+    public:
+    operator<(Circle const& c1, Circle const& c2){
+        return c1<c2;
+    }
+};
+*/
 #endif

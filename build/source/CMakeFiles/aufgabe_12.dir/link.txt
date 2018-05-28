@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11   CMakeFiles/aufgabe_12.dir/vec2.cpp.o CMakeFiles/aufgabe_12.dir/aufgabe_12.cpp.o  -o aufgabe_12 -rdynamic 

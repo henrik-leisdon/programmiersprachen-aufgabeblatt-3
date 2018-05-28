@@ -7,6 +7,8 @@
 #include "circle.hpp"
 #include "color.hpp"
 #include <string>
+#include <ostream>
+#include <sstream>
 
 
 Circle::Circle(): 
@@ -55,12 +57,14 @@ bool Circle::is_inside(Vec2 const& v){
     }
 }    
 
-//std::string print(Circle const& c1){
-// c1.get_radius() + c1.get_mp().x + c1.get_mp().y  + c1.get_color().r_ +c1.get_color().g_+";" +c1.get_color().b_ +" " + c1.get_name();
-//}
+std::ostream& Circle::print(std::ostream& outstream) const
+{
+outstream << get_radius() <<";" <<get_mp().x <<";" <<get_mp().y <<";" << get_color().r_ <<";" << get_color().g_<<";" <<get_color().b_ <<";" <<get_name();
+return outstream;
+}
 
-//std::ostream operator<<(std::ostream& os, const Circle& print()){
-//return os;
+//std::ostream operator<<(std::ostream& outstream, Circle const& c1){
+//return c1.print(outstream);
 //}
 
 bool operator <(Circle const& c1, Circle const& c2){

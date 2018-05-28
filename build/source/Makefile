@@ -111,6 +111,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+source/CMakeFiles/aufgabe_12.dir/rule:
+	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe_12.dir/rule
+.PHONY : source/CMakeFiles/aufgabe_12.dir/rule
+
+# Convenience name for target.
+aufgabe_12: source/CMakeFiles/aufgabe_12.dir/rule
+
+.PHONY : aufgabe_12
+
+# fast build rule for target.
+aufgabe_12/fast:
+	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe_12.dir/build.make source/CMakeFiles/aufgabe_12.dir/build
+.PHONY : aufgabe_12/fast
+
+# Convenience name for target.
 source/CMakeFiles/aufgabe_2_und_3.dir/rule:
 	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe_2_und_3.dir/rule
 .PHONY : source/CMakeFiles/aufgabe_2_und_3.dir/rule
@@ -196,6 +211,33 @@ aufgabe_11.s: aufgabe_11.cpp.s
 aufgabe_11.cpp.s:
 	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe_11.dir/build.make source/CMakeFiles/aufgabe_11.dir/aufgabe_11.cpp.s
 .PHONY : aufgabe_11.cpp.s
+
+aufgabe_12.o: aufgabe_12.cpp.o
+
+.PHONY : aufgabe_12.o
+
+# target to build an object file
+aufgabe_12.cpp.o:
+	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe_12.dir/build.make source/CMakeFiles/aufgabe_12.dir/aufgabe_12.cpp.o
+.PHONY : aufgabe_12.cpp.o
+
+aufgabe_12.i: aufgabe_12.cpp.i
+
+.PHONY : aufgabe_12.i
+
+# target to preprocess a source file
+aufgabe_12.cpp.i:
+	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe_12.dir/build.make source/CMakeFiles/aufgabe_12.dir/aufgabe_12.cpp.i
+.PHONY : aufgabe_12.cpp.i
+
+aufgabe_12.s: aufgabe_12.cpp.s
+
+.PHONY : aufgabe_12.s
+
+# target to generate assembly for a file
+aufgabe_12.cpp.s:
+	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe_12.dir/build.make source/CMakeFiles/aufgabe_12.dir/aufgabe_12.cpp.s
+.PHONY : aufgabe_12.cpp.s
 
 aufgabe_2_und_3.o: aufgabe_2_und_3.cpp.o
 
@@ -320,6 +362,7 @@ vec2.o: vec2.cpp.o
 
 # target to build an object file
 vec2.cpp.o:
+	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe_12.dir/build.make source/CMakeFiles/aufgabe_12.dir/vec2.cpp.o
 	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe_2_und_3.dir/build.make source/CMakeFiles/aufgabe_2_und_3.dir/vec2.cpp.o
 	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe_6.dir/build.make source/CMakeFiles/aufgabe_6.dir/vec2.cpp.o
 	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe_7.dir/build.make source/CMakeFiles/aufgabe_7.dir/vec2.cpp.o
@@ -332,6 +375,7 @@ vec2.i: vec2.cpp.i
 
 # target to preprocess a source file
 vec2.cpp.i:
+	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe_12.dir/build.make source/CMakeFiles/aufgabe_12.dir/vec2.cpp.i
 	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe_2_und_3.dir/build.make source/CMakeFiles/aufgabe_2_und_3.dir/vec2.cpp.i
 	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe_6.dir/build.make source/CMakeFiles/aufgabe_6.dir/vec2.cpp.i
 	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe_7.dir/build.make source/CMakeFiles/aufgabe_7.dir/vec2.cpp.i
@@ -344,6 +388,7 @@ vec2.s: vec2.cpp.s
 
 # target to generate assembly for a file
 vec2.cpp.s:
+	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe_12.dir/build.make source/CMakeFiles/aufgabe_12.dir/vec2.cpp.s
 	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe_2_und_3.dir/build.make source/CMakeFiles/aufgabe_2_und_3.dir/vec2.cpp.s
 	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe_6.dir/build.make source/CMakeFiles/aufgabe_6.dir/vec2.cpp.s
 	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersprachen-aufgabeblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe_7.dir/build.make source/CMakeFiles/aufgabe_7.dir/vec2.cpp.s
@@ -357,6 +402,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... aufgabe_12"
 	@echo "... edit_cache"
 	@echo "... aufgabe_2_und_3"
 	@echo "... aufgabe_6"
@@ -365,6 +411,9 @@ help:
 	@echo "... aufgabe_11.o"
 	@echo "... aufgabe_11.i"
 	@echo "... aufgabe_11.s"
+	@echo "... aufgabe_12.o"
+	@echo "... aufgabe_12.i"
+	@echo "... aufgabe_12.s"
 	@echo "... aufgabe_2_und_3.o"
 	@echo "... aufgabe_2_und_3.i"
 	@echo "... aufgabe_2_und_3.s"
